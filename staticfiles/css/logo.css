@@ -1,0 +1,66 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  color: white;
+  min-height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  text-align: center;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  margin: 0 auto;
+  height: 100%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+canvas {
+  display: block;
+  margin: 0px auto 20px;
+  cursor: move;
+}
+
+a {
+  color: #f49;
+}
+
+.p1 {
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.s1 {
+  font-size: 43px;
+  color: #f49;
+}
+
+.p2 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: -35px;
+  color: rgb(255, 255, 255, 0.3);
+}
+
+.a1 {
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(255, 255, 255, 0.3);
+}
